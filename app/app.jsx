@@ -5,13 +5,11 @@ var {Route, Router, IndexRoute, hashHistory} = require('react-router');
 // Bootstrap css
 require('style!css!bootstrap/dist/css/bootstrap.min.css');
 
-// Load foundation
-$(document).foundation();
-
 // App css
 require('style!css!sass!applicationStyles')
 
+var Test = require('Test');
 ReactDOM.render(
-  <p>Boilerplate 3 Project</p>,
+  <Test/>,
   document.getElementById('app')
 );
